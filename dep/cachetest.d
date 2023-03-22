@@ -1,5 +1,5 @@
-obj/cachetest.o: src/cachetest.c src/encoding.h src/flushCache.h
+obj/cachetest.o: src/cachetest.c include/encoding.h include/flushCache.h
 
-src/encoding.h:
+include/encoding.h:
 
-src/flushCache.h:
+include/flushCache.h:

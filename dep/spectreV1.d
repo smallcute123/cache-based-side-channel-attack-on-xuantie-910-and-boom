@@ -1,5 +1,5 @@
-obj/spectreV1.o: src/spectreV1.c src/encoding.h src/flushCache.h
+obj/spectreV1.o: src/spectreV1.c include/encoding.h include/flushCache.h
 
-src/encoding.h:
+include/encoding.h:
 
-src/flushCache.h:
+include/flushCache.h:

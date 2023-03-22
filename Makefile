@@ -27,7 +27,7 @@ DEPFLAGS=-MT $@ -MMD -MP -MF $(DEP)/$*.d
 RM=rm -rf
 
 # Programs to compile
-PROGRAMS= dcacheTest spectreV1 flushCacheTest condBranchMispred cachetest jfflushCacheTest
+PROGRAMS= dcacheTest spectreV1 flushCacheTest condBranchMispred cachetest
 BINS=$(addprefix $(BIN)/,$(addsuffix .riscv,$(PROGRAMS)))
 DUMPS=$(addprefix $(DMP)/,$(addsuffix .dump,$(PROGRAMS)))
 

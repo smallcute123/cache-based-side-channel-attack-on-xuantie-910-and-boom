@@ -1,5 +1,5 @@
-obj/dcacheTest.o: src/dcacheTest.c src/encoding.h src/cache.h
+obj/dcacheTest.o: src/dcacheTest.c include/encoding.h include/cache.h
 
-src/encoding.h:
+include/encoding.h:
 
-src/cache.h:
+include/cache.h:

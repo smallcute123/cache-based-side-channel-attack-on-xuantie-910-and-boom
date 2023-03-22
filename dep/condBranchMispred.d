@@ -1,6 +1,6 @@
-obj/condBranchMispred.o: src/condBranchMispred.c src/encoding.h \
- src/cache.h
+obj/condBranchMispred.o: src/condBranchMispred.c include/encoding.h \
+ include/cache.h
 
-src/encoding.h:
+include/encoding.h:
 
-src/cache.h:
+include/cache.h:
